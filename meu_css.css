@@ -1,0 +1,203 @@
+header{
+    background-color: rgb(0, 0, 0);
+}
+
+section{
+    
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+}
+.diego{
+    margin:15px 0px 15px 80px;
+}
+
+.texto{
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkslategrey;
+    text-align: justify;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.secimg{
+    text-align: center;
+}
+
+.down{
+    height: 100px;
+    width: 200px;
+    border: 1px solid #696969;
+    border-radius: 15px;
+    background-color: bisque;
+    margin: 18px;
+    text-align: center;
+    font: 18px Arial;
+    line-height: 100px;
+    float: left;
+}
+.limpar{
+    clear: both;
+}
+
+.down a{
+    text-decoration: none;
+    color: rgb(251, 5, 5);
+    font-weight: bold;
+}
+
+
+
+
+
+
+/*Aqui inicia o código css do menu*/
+
+nav{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: rgb(255, 255, 255);
+}
+nav ul{
+    height: auto;
+    padding: 10px 0px;
+    margin-left: 20px;
+}
+
+nav li{
+    background-color: rgb(0, 0, 0);
+    display: inline;
+    padding: 3px 20px 3px 20px;
+    margin: 0px;
+    border: 1px solid #696969;
+    border-radius: 20px;
+    box-shadow: 5px 2px 5px rgb(146, 137, 137);
+}
+
+li a{
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;   
+}
+nav li:hover{
+    background-color: rgb(238, 183, 119);
+}
+li a:hover{
+    color: blue;
+}
+
+
+/*Aqui finda o código css menu*/
+
+/*Aqui inicia o código css Responsivo*/
+
+@media all  and (min-width:1001px){
+    body{
+        width: 1000px;
+        margin: auto;
+    }
+}
+
+@media all and (max-width: 800px){
+    body{
+        background-color:rgb(205, 200, 200);
+        width: 80%;
+        margin: auto;
+    }
+    nav{
+        height: 100%;
+        text-align: center;
+    }
+    nav li{
+        display: block;
+        text-align: center;
+        margin: 5px;
+    }
+    nav ul{
+        height: auto;
+        padding: 20px 20px;
+        margin: 20px;
+    }
+    .textarea{
+            width: 80%;
+        }
+    
+
+
+}
+
+
+
+
+/* Aqui inicia o FORM*/
+
+form{
+    background-color: gainsboro;
+}
+
+.input, textarea{
+    width: 300px;
+    padding: 10px;
+    color: #696969;
+    margin-left: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+textarea{
+    width: 400px;
+    height: 140px;
+    max-width: 400px;
+    max-height: 140px;
+    max-lines: 20;
+}
+
+h3{
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+form label{
+    margin-left: 20px;
+    color: #696969;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.form{
+    margin-left: 20px;
+    padding: 10px;
+    color: black;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 200px;
+}
+
+select{
+    width: 330px;
+    padding: 5px;
+    margin-left: 20px;
+    font-size: 16px;
+    height: 35px;
+    border-radius: 5px;
+}
+.pqz{
+    color: black;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+fieldset{
+    margin: 20px;
+}
+
+
+
+/* Aqui finda o FORM*/
